@@ -1,4 +1,4 @@
-FROM ghcr.io/netcracker/qubership-docker-integration-tests:main
+FROM ghcr.io/fartus9-commits/qubership-docker-integration-tests:main
 
 ENV ROBOT_OUTPUT=/opt/robot/output \
     SERVICE_CHECKER_SCRIPT=${ROBOT_HOME}/consul_pods_checker.py
